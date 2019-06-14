@@ -15,3 +15,14 @@ function distanceFromHqInFeet(streetNo){
   let blocks = distanceFromHqInBlocks(streetNo);
   return blocks*blockDistance;
 }
+
+function distanceTravelledInFeet(startingStreet, endingStreet){
+  let blocks = 0;
+  const blockDistance = 264;
+  if (startingStreet > endingStreet) {
+    blocks = startingStreet - endingStreet;
+  } else {
+    blocks = endingStreet - starting Street;
+  }
+  return blocks * blockDistance;
+}
