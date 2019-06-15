@@ -22,7 +22,7 @@ function distanceTravelledInFeet(startingStreet, endingStreet){
   if (startingStreet > endingStreet) {
     blocks = startingStreet - endingStreet;
   } else {
-    blocks = endingStreet - starting Street;
+    blocks = endingStreet - startingStreet;
   }
   return blocks * blockDistance;
 }
